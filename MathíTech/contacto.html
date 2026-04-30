@@ -1,0 +1,177 @@
+<!-- 
+    Archivo: contacto.html
+    Proyecto: MathíTech - Sistema de Información
+    Descripción: Página de contacto para comunicación con los clientes.
+-->
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="MathíTech ofrece soluciones tecnológicas, venta de computadores y asesoría especializada.">
+    
+    <!-- Título de la página unificado -->
+    <title>MathíTech | Contacto</title>
+
+    <!-- Enlace a la hoja de estilos CSS -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+<header class="header">
+    <!-- Logo unificado sin espacios conflictivos -->
+    <img src="imagenes/logo-azul.png" alt="Logo MathíTech" class="logo">
+    <p>Innovación y tecnología a tu alcance</p>
+</header>
+
+<nav>
+    <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="servicios.html">Servicios</a></li>
+        <li><a href="productos.html">Productos</a></li>
+        <li><a href="nosotros.html">Quiénes Somos</a></li>
+        <li><a href="contacto.html" class="activo">Contacto</a></li>
+    </ul>
+</nav>
+
+<main>
+
+    <!-- INFORMACIÓN DE CONTACTO -->
+    <section class="fade-up">
+        <h2>Contacto</h2>
+        <p>
+            En <strong>MathíTech</strong> estamos disponibles para brindarte información sobre
+            nuestros productos y servicios tecnológicos.
+        </p>
+
+        <ul style="list-style: none; padding: 0; margin-top: 20px;">
+            <li>📧 <strong>Correo:</strong> diegosierra947@hotmail.com</li>
+            <li>📞 <strong>Teléfono:</strong> +57 312 567 4038</li>
+            <li>📍 <strong>Ubicación:</strong> Bogotá D.C., Suba, Colombia</li>
+        </ul>
+    </section>
+
+    <!-- HORARIO Y COMPROMISO -->
+    <section class="fade-up">
+        <h3>Horario de atención</h3>
+        <p>Lunes a Viernes: 8:00 a.m. – 6:00 p.m.</p>
+        <p>Sábados: 9:00 a.m. – 1:00 p.m.</p>
+        
+        <hr style="margin: 20px 0; border: 0; border-top: 1px solid #eee;">
+        
+        <h3>Compromiso MathíTech</h3>
+        <p>
+            Nos comprometemos a ofrecer asesoría personalizada, productos de alta 
+            calidad y soporte confiable para potenciar tu rendimiento digital.
+        </p>
+    </section>
+
+    <!-- FORMULARIO DE CONTACTO -->
+    <section class="fade-up">
+        <h3>Envíanos un mensaje</h3>
+        <form class="contact-form">
+            <div class="form-group">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Tu nombre completo" required>
+            </div>
+
+            <div class="form-group">
+                <label for="correo">Correo electrónico</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+            </div>
+
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea id="mensaje" name="mensaje" rows="5" placeholder="¿En qué podemos ayudarte?" required></textarea>
+            </div>
+
+            <button type="submit" class="btn primary">Enviar mensaje</button>
+        </form>
+        <p class="nota-formulario" style="margin-top: 15px; font-size: 0.8rem; color: #777;">
+            * Este formulario tiene fines demostrativos.
+        </p>
+    </section>
+
+    <!-- CANALES DIRECTOS Y REDES -->
+    <section class="fade-up">
+        <a href="https://wa.me/573125674038" class="btn-whatsapp" target="_blank">
+            💬 Contáctanos por WhatsApp
+        </a>
+
+        <div class="contact-social" style="margin-top: 40px;">
+            <h3>Síguenos en redes sociales</h3>
+            <div class="contact-social-icons">
+                <a href="https://www.facebook.com/share/1DZEGYe4md/" target="_blank">
+                    <img src="imagenes/facebook.png" alt="Facebook MathíTech">
+                </a>
+                <a href="https://www.instagram.com/sierrad_0727" target="_blank">
+                    <img src="imagenes/instagram.png" alt="Instagram MathíTech">
+                </a>
+                <a href="https://wa.me/573125674038" target="_blank">
+                    <img src="imagenes/whatsapp.png" alt="WhatsApp MathíTech">
+                </a>
+                <a href="https://www.tiktok.com/@sierrad0727" target="_blank">
+                    <img src="imagenes/tik-tok.png" alt="TikTok MathíTech">
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- UBICACIÓN -->
+    <section class="fade-up">
+        <h3>Ubicación</h3>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9947.333949888376!2d-74.07665150323078!3d4.734241229726935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f851ad0f7b359%3A0x1bbf1d37a621faf2!2sEspol!5e0!3m2!1ses!2sco!4v1767321752265!5m2!1ses!2sco"
+            width="100%"
+            height="350"
+            style="border:0; border-radius: 15px;"
+            allowfullscreen=""
+            loading="lazy">
+        </iframe>
+    </section>
+
+</main>
+
+<footer class="footer">
+    <div class="footer-container">
+        <div class="footer-brand">
+            <img src="imagenes/logo-azul.png" alt="MathíTech Logo">
+            <p>Soluciones tecnológicas modernas, confiables y a tu medida.</p>
+        </div>
+
+        <div class="footer-links">
+            <h4>Enlaces</h4>
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="productos.html">Productos</a></li>
+                <li><a href="nosotros.html">Nosotros</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+
+        <div class="footer-contact">
+            <h4>Contacto</h4>
+            <p>📍 Bogotá D.C., Suba</p>
+            <p>📞 +57 312 567 4038</p>
+            <p>✉️ diegosierra947@hotmail.com</p>
+        </div>
+
+        <div class="footer-social">
+            <h4>Síguenos</h4>
+            <div class="social-icons">
+                <a href="#"><img src="imagenes/facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="imagenes/instagram.png" alt="Instagram"></a>
+                <a href="#"><img src="imagenes/whatsapp.png" alt="WhatsApp"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="footer-bottom">
+        <p>© 2026 MathíTech. Todos los derechos reservados.</p>
+    </div>
+</footer>
+
+</body>
+</html>
